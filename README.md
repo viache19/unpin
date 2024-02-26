@@ -12,5 +12,6 @@ Add to the autoruns registry :
 
   - Press the key "Win + R", write the regedit
   - Right click, New, String Value
+  - search for : Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
   - Name : the one you want
   - Value : python "C:\the\path\to\your\script.py"
