@@ -7,7 +7,7 @@ def unpin_from_taskbar(app_name):
     # Find the application icon in the Taskbar
     for i in range(taskbar.Items().Count):
         item = taskbar.Items().Item(i)
-        #print(item)  # if you wnat see the available files in the file
+        #print(item)  # if you wnat see the available files in the folder
         if item.Name == app_name:
             # Unpin the application from the Taskbar
             verb = None
