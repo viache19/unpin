@@ -10,6 +10,7 @@ Dependencies :
 
 
 We have two main possibilities to make it work:
+
 1 - Add the script to the Startup folder : 
   - Go to : "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
   - Add the unpi file, but rename it like this "unpin.pyw" (the w = execution without console)
