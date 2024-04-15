@@ -8,7 +8,13 @@ So I created this little script. Basically what it will do, is to go to the shor
 Dependencies : 
   - pywin32 : pip install pywin32
 
-Add to the autoruns registry : 
+
+We have two main possibilities to make it work:
+1 - Add the script to the Startup folder : 
+  - Go to : "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+  - Add the unpi file, but rename it like this "unpin.pyw" (the w = execution without console)
+
+2 - Add to the autoruns registry : 
 
   - Press the key "Win + R", write the regedit
   - Right click, New, String Value
